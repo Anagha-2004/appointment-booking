@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://t3.ftcdn.net/jpg/04/96/80/34/360_F_496803433_TeCu85tBSH36XkKklQ4Eu6Zc5EbZQgs5.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  text-shadow: 1px 1px 4px #000;
+}
+
+form {
+  width: 300px;
+  margin: 20px auto;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+form button {
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #45a049;
+}
+
+a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Used in message.ejs */
+.center-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* Used in home.ejs to center content vertically and horizontally */
+.home-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Used to style the box around Welcome text and buttons */
+.form-box {
+  background: rgba(0,0,0,0.6);
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.form-box h2 {
+  margin-top: 0;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background: #45a049;
+}
+.center-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
